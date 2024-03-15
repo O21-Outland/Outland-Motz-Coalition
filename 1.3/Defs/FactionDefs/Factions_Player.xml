@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+	<FactionDef ParentName="Outland_PlayerColonyBase">
+		<defName>Outland_MotzPlayerColony</defName>
+		<label>Motz Colony</label>
+		<description>Your own community.</description>
+		<pawnsPlural>colonists</pawnsPlural>
+		<basicMemberKind>Outland_Motz</basicMemberKind>
+	</FactionDef>
+  
+	<FactionDef ParentName="Outland_PlayerTribeBase">
+		<defName>Outland_MotzPlayerTribe</defName>
+		<label>Motz Tribe</label>
+		<description>A small tribe.</description>
+		<pawnSingular>tribesman</pawnSingular>
+		<pawnsPlural>tribespeople</pawnsPlural>
+		<basicMemberKind>Outland_MotzTribal</basicMemberKind>
+		<modExtensions>
+			<li Class="VFECore.FactionDefExtension">
+				<!-- TODO: Look into making some Motz specific pack animal textures. Oxect at least. -->
+				<!-- <packAnimalTexNameSuffix>MotzPack</packAnimalTexNameSuffix> -->
+				<!-- <strangerInBlackReplacement>Outland_MotzInBlack</strangerInBlackReplacement> -->
+			</li>
+		</modExtensions>
+	</FactionDef>
+
+</Defs>

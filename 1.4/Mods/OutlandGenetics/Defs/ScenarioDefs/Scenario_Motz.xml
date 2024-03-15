@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ScenarioDef>
+		<defName>Outland_MotzTraders</defName>
+		<label>Motz Traders</label>
+		<description>You are traders from Subsanna, a handful of Motz that split off from the Motz Coalition looking to make their own name through trade. How you decide to trade, who with and what you trade will show the others what kind of Motz you are.\n\nNote: Due to sunlight being blinding to Motz, this could be a very harsh start.</description>
+		<scenario>
+			<summary>Four Motz looking to start their own trade route. Somewhat difficult.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>Outland_MotzPlayerTribe</factionDef>
+			</playerFaction>
+			<parts>
+
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<customSummary>Start with four adult or child motz.</customSummary>
+					<xenotypeCounts>
+						<li>
+							<xenotype>Outland_Motz</xenotype>
+							<count>4</count>
+							<description>non-baby motz</description>
+							<requiredAtStart>true</requiredAtStart>
+							<allowedDevelopmentalStages>Adult, Child</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+				</li>
+
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Pemmican</thingDef>
+					<count>400</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineHerbal</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_DorySpear</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_Xiphos</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_Kopis</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_Crossbow</thingDef>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_MotzCuirass</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_MotzPauldrons</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Outland_MotzHelmet</thingDef>
+					<stuff>Steel</stuff>
+				</li>
+
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>500</count>
+				</li>
+
+				<!-- Game start dialog -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>You are traders from Subsanna, a handful of Motz that split off from the Motz Coalition looking to make their own name through trade. How you decide to trade, who with and what you trade will show the others what kind of Motz you are.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+</Defs>

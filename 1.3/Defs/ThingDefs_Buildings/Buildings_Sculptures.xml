@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="SculptureBase">
+		<defName>Outland_SculptureOxectGroup</defName>
+		<label>grand oxect sculpture</label>
+		<description>A huge sculpture sized to dominate a room.</description>
+		<castEdgeShadows>true</castEdgeShadows>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Outland/Motz/Buildings/SculptureGrandOxect</texPath>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Beauty>400</Beauty>
+			<Mass>28</Mass>
+			<WorkToMake>105000</WorkToMake>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>400</costStuffCount>
+		<researchPrerequisites>
+			<li>Outland_MotzDeco</li>
+		</researchPrerequisites>
+		<designationCategory>Outland_OutlandDeco</designationCategory>
+	</ThingDef>
+
+</Defs>

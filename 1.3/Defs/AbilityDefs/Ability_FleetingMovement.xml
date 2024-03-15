@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VFECore.Abilities.AbilityDef>
+		<defName>Outland_Spell_FleetingMovement</defName>
+		<label>fleeting movement</label>
+		<description>Through the use of their wings, fly a short distance.</description>
+		<abilityClass>OutlandMotz.Ability_FleetingMovement</abilityClass>
+		<castSound>Outland_Spell_MysticismFail</castSound>
+		<iconPath>Outland/Motz/Abilities/Spell_FleetingMovement</iconPath>
+		<targetFlecks>
+			<li>BlastDry</li>
+		</targetFlecks>
+		<targetMode>Location</targetMode>
+		<castTime>0</castTime>
+		<range>16</range>
+		<cooldownTime>600</cooldownTime>
+		<requiredHediff>
+			<hediffDef>Outland_MotzAbilities</hediffDef>
+			<minimumLevel>0</minimumLevel>
+		</requiredHediff>
+	</VFECore.Abilities.AbilityDef>
+
+	<ThingDef ParentName="PawnFlyerBase">
+		<defName>Outland_AbilityFlyer_FleetingMovement</defName>
+		<thingClass>VFECore.Abilities.AbilityPawnFlyer</thingClass>
+		<pawnFlyer>
+			<flightDurationMin>1</flightDurationMin>
+			<flightSpeed>10</flightSpeed>
+		</pawnFlyer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+	</ThingDef>
+
+</Defs>

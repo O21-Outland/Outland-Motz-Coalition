@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<HediffGiverSetDef>
+		<defName>Outland_Motz</defName>
+		<hediffGivers>
+			<li Class="O21Toolbox.HediffGiver_Racial">
+				<hediff>Outland_Motz</hediff>
+			</li>
+			<li Class="O21Toolbox.HediffGiver_Racial">
+				<hediff>Outland_MotzAbilities</hediff>
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+
+	<HediffDef>
+		<defName>Outland_Motz</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Race: Motz</label>
+		<description>Motz eyes are more sensitive than other races, being both a blessing and a curse.\n\n- They can fly a short distance freely\n- Darkness doesn't affect them.\n- Light bothers them, to a greater degree in brighter light.\n\nIdeology:\n- Darklight is a preferred light source regardless of Ideologion.</description>
+		<defaultLabelColor>(85, 230, 167)</defaultLabelColor>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<capMods />
+			</li>
+		</stages>
+		<comps>
+			<li Class="O21Toolbox.Health.HediffCompProperties_TooltipDescription" />
+		</comps>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>Outland_MotzAbilities</defName>
+		<hediffClass>OutlandMotz.Hediff_MotzAbilities</hediffClass>
+		<label>Motz Abilities</label>
+		<description>Motz Racial Abilities Hediff.</description>
+		<defaultLabelColor>(85, 230, 167)</defaultLabelColor>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
+	</HediffDef>
+
+</Defs>

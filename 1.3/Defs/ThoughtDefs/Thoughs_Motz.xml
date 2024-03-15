@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>Outland_MotzThotz_InLight</defName>
+		<workerClass>OutlandMotz.ThoughtWorker_IsTooBrightForMotz</workerClass>
+		<stages>
+			<li>
+				<label>bright light</label>
+				<description>I don't like light this bright, it makes my eyes hurt, why does something so pretty hurt me so...</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>blinding light</label>
+				<description>The light is blinding, I can barely keep my eyes open...but I can't look away...</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

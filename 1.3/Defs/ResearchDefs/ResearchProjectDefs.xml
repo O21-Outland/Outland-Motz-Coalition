@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ResearchProjectTagDef>
+		<defName>Outland_MotzStart</defName>
+	</ResearchProjectTagDef>
+
+	<!-- ==================================== Motz ========================================== -->
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_MotzArmory</defName>
+		<label>motz armory</label>
+		<description>Learn to craft motz apparel, armor and weapons.</description>
+		<prerequisites>
+			<li>ComplexClothing</li>
+			<li>Smithing</li>
+		</prerequisites>
+		<tags>
+			<li>Outland_MotzStart</li>
+		</tags>
+		<researchViewX>5</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="Outland_ResearchBase">
+		<defName>Outland_MotzDeco</defName>
+		<label>motz deco</label>
+		<description>Learn to build motz style decorative buildings.</description>
+		<prerequisites>
+			<li>Outland_MedievalFurniture</li>
+		</prerequisites>
+		<tags>
+			<li>Outland_MotzStart</li>
+		</tags>
+		<researchViewX>5</researchViewX>
+		<researchViewY>2.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>Outland_MotzNamesMale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Name1][Name2][Name3][Name4][Name7]</li>
+				<li>name->[Name1][Name2][Name3][Name4][Name5][Name6][Name7]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Break</keyword>
+					<path>Motz/br</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name1</keyword>
+					<path>Motz/nm1</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name2</keyword>
+					<path>Motz/nm2</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name3</keyword>
+					<path>Motz/nm3</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name4</keyword>
+					<path>Motz/nm4</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name5</keyword>
+					<path>Motz/nm5</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name6</keyword>
+					<path>Motz/nm6</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name7</keyword>
+					<path>Motz/nm7</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name8</keyword>
+					<path>Motz/nm8</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name9</keyword>
+					<path>Motz/nm9</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name10</keyword>
+					<path>Motz/nm10</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name11</keyword>
+					<path>Motz/nm11</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name12</keyword>
+					<path>Motz/nm12</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name13</keyword>
+					<path>Motz/nm13</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name14</keyword>
+					<path>Motz/nm14</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name15</keyword>
+					<path>Motz/nm15</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>Outland_MotzNamesFemale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[Name8][Name9][Name10][Name14][Name15]</li>
+				<li>name->[Name8][Name9][Name10][Name11][Name12][Name14][Name15]</li>
+				<li>name->[Name8][Name9][Name10][Name11][Name12][Name11][Name13][Name14][Name15]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>Break</keyword>
+					<path>Motz/br</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name1</keyword>
+					<path>Motz/nm1</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name2</keyword>
+					<path>Motz/nm2</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name3</keyword>
+					<path>Motz/nm3</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name4</keyword>
+					<path>Motz/nm4</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name5</keyword>
+					<path>Motz/nm5</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name6</keyword>
+					<path>Motz/nm6</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name7</keyword>
+					<path>Motz/nm7</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name8</keyword>
+					<path>Motz/nm8</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name9</keyword>
+					<path>Motz/nm9</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name10</keyword>
+					<path>Motz/nm10</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name11</keyword>
+					<path>Motz/nm11</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name12</keyword>
+					<path>Motz/nm12</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name13</keyword>
+					<path>Motz/nm13</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name14</keyword>
+					<path>Motz/nm14</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>Name15</keyword>
+					<path>Motz/nm15</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

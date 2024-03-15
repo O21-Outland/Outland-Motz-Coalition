@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="SubsannaBaseinsect">
+		<defName>Outland_Oxect</defName>
+		<label>oxect</label>
+		<description>A massive insect species commonly found underground, often used by the inhabitants of Subsanna as a pack animal.</description>
+		<statBases>
+			<MoveSpeed>3.60</MoveSpeed>
+			<MarketValue>500</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.27</ArmorRating_Sharp>
+		</statBases>
+		<uiIconScale>1.15</uiIconScale>
+		<tools>
+			<li>
+				<label>head claw</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>BeetleLikeWithClaw</body>
+			<baseBodySize>2.4</baseBodySize>
+			<baseHealthScale>1.75</baseHealthScale>
+			<baseHungerRate>0.535</baseHungerRate>
+			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<lifeExpectancy>6</lifeExpectancy>
+			<wildness>0.4</wildness>
+			<roamMtbDays>2</roamMtbDays>
+			<trainability>Advanced</trainability>
+			<packAnimal>true</packAnimal>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.2</minAge>
+					<soundWounded>Pawn_BigInsect_Pain</soundWounded>
+					<soundDeath>Pawn_BigInsect_Death</soundDeath>
+					<soundCall>Pawn_BigInsect_Call</soundCall>
+					<soundAngry>Pawn_BigInsect_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Milk</milkDef>
+				<milkIntervalDays>1</milkIntervalDays>
+				<milkAmount>14</milkAmount>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>AnimalInsect</li>
+			<li>AnimalCommon</li>
+			<li>AnimalFarm</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>Outland_Oxect</defName>
+		<label>oxect bull</label>
+		<race>Outland_Oxect</race>
+		<combatPower>150</combatPower>
+		<fixedGender>Male</fixedGender>
+		<canArriveManhunter>true</canArriveManhunter>
+		<ecoSystemWeight>0.50</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Outland/Motz/Pawns/Oxect/Oxect</texPath>
+					<drawSize>1.2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Outland/Motz/Pawns/Oxect/Dessicated_Oxect</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Outland/Motz/Pawns/Oxect/Oxect</texPath>
+					<drawSize>2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Outland/Motz/Pawns/Oxect/Dessicated_Oxect</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Outland/Motz/Pawns/Oxect/Oxect</texPath>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.7, 0.43)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Outland/Motz/Pawns/Oxect/Dessicated_Oxect</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>Outland_OxectFemale</defName>
+		<label>oxect</label>
+		<race>Outland_Oxect</race>
+		<combatPower>150</combatPower>
+		<fixedGender>Female</fixedGender>
+		<canArriveManhunter>true</canArriveManhunter>
+		<ecoSystemWeight>0.50</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Outland/Motz/Pawns/Oxect/OxectFemale</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Outland/Motz/Pawns/Oxect/Dessicated_OxectFemale</texPath>
+					<drawSize>0.6</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Outland/Motz/Pawns/Oxect/OxectFemale</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Outland/Motz/Pawns/Oxect/Dessicated_OxectFemale</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Outland/Motz/Pawns/Oxect/OxectFemale</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.7, 0.43)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Outland/Motz/Pawns/Oxect/Dessicated_OxectFemale</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>

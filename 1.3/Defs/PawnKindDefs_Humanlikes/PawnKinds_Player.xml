@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="Outland_BaseColonyPawnKind">
+		<defName>Outland_Motz</defName>
+		<label>motz</label>
+		<race>Outland_Motz</race>
+		<defaultFactionType>Outland_MotzPlayerColony</defaultFactionType>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Outland_BaseTribalPawnKind">
+		<defName>Outland_MotzTribal</defName>
+		<label>tribal motz</label>
+		<race>Outland_Motz</race>
+		<defaultFactionType>Outland_MotzPlayerTribe</defaultFactionType>
+	</PawnKindDef>
+
+</Defs>
