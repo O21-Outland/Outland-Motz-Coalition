@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="Outland_BaseColonyPawnKind">
+		<defName>Outland_Motz</defName>
+		<label>motz</label>
+		<race>Human</race>
+		<defaultFactionType>Outland_MotzPlayerColony</defaultFactionType>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Motz>999</Outland_Motz>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Outland_BaseTribalPawnKind">
+		<defName>Outland_MotzTribal</defName>
+		<label>tribal motz</label>
+		<race>Human</race>
+		<defaultFactionType>Outland_MotzPlayerTribe</defaultFactionType>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Outland_Motz>999</Outland_Motz>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+	</PawnKindDef>
+
+</Defs>
