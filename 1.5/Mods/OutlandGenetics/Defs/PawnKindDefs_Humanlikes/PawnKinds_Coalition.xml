@@ -7,7 +7,6 @@
 			<xenotypeChances>
 				<Outland_Motz>999</Outland_Motz>
 			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
 		</xenotypeSet>
 		<defaultFactionType>Outland_MotzCoalition</defaultFactionType>
 		<backstoryCategories>
