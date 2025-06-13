@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="Tundra" or defName="BorealForest" or defName="ColdBog" or defName="IceSheet" or defName="SeaIce" or defName="TemperateSwamp" or defName="TemperateForest" or defName="TropicalSwamp" or defName="TropicalRainforest" or defName="AridShrubland" or defName="Desert" or defName="ExtremeDesert"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Outland_Oxect</li>
+		</value>
+	</Operation>
+
+</Patch>
