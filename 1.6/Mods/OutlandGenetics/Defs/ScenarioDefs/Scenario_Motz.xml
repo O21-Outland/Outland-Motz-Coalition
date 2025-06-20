@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>Outland_MotzTraders</defName>
 		<label>Motz Traders</label>
 		<description>You are traders from Subsanna, a handful of Motz that split off from the Motz Coalition looking to make their own name through trade. How you decide to trade, who with and what you trade will show the others what kind of Motz you are.\n\nNote: Due to sunlight being blinding to Motz, this could be a very harsh start.</description>

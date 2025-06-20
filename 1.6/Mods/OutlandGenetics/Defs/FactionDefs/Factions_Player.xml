@@ -27,7 +27,7 @@
 			</xenotypeChances>
 		</xenotypeSet>
 		<modExtensions>
-			<li Class="VFECore.FactionDefExtension">
+			<li Class="VEF.Factions.FactionDefExtension">
 				<!-- TODO: Look into making some Motz specific pack animal textures. Oxect at least. -->
 				<!-- <packAnimalTexNameSuffix>MotzPack</packAnimalTexNameSuffix> -->
 				<strangerInBlackReplacement>Outland_MotzInBlack</strangerInBlackReplacement>
