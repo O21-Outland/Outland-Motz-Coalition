@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>Outland_Motz</defName>
+		<label>motz</label>
+		<description>A humanoid sentient species sharing many characteristics with that of a moth. They are a sub-species of Insectid, or humanoid insectoid, which split off from the rest to live underground in the depths of the Subsanna cave system. Due to their life underground for many years they developed an aversion to light and while many Insectids have wings, Motz developed a more fuzzy coat to theirs making it harder to damage them easily when navigating the rocky cave systems they inhabit.</description>
+		<descriptionShort>A humanoid sentient species sharing many characteristics with that of a moth. They are a subspecies of Insectid, or humanoid insectoid, which split off from the rest to live underground in the depths of the Subsanna cave system.</descriptionShort>
+		<iconPath>Outland/Motz/World/MotzBaseIcon</iconPath>
+		<combatPowerFactor>1.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Outland_MothHead</li>
+			<li>Outland_Antenna_Feather</li>
+			<li>Outland_Antenna_Leaf</li>
+			<li>Outland_Antenna_Owl</li>
+			<li>Outland_NeckRuffle_Curly</li>
+			<li>Outland_NeckRuffle_Spikey</li>
+			<li>Outland_NeckRuffle_Wavy</li>
+			<li>Outland_NeckRuffle_Fuzzy</li>
+			<li>Outland_Wings_Plain</li>
+			<li>Outland_Wings_Pointed</li>
+			<li>Outland_Wings_Striped</li>
+			<li>Outland_Wings_Roundel</li>
+			<li>Outland_DarklightAffinity</li>
+			<li>Body_Standard</li>
+			<li>Body_Thin</li>
+			<li>DarkVision</li>
+			<li>Hair_SnowWhite</li>
+			<li>Hair_Gray</li>
+			<li>Hair_MidBlack</li>
+			<li>Hair_DarkBlack</li>
+			<li>Hair_InkBlack</li>
+			<li>Skin_SheerWhite</li>
+			<li>Skin_LightGray</li>
+			<li>Skin_SlateGray</li>
+			<li>Skin_InkBlack</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+		</genes>
+	</XenotypeDef>
+
+</Defs>

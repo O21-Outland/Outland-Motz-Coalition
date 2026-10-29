@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TabulaRasa.UpdateDef>
+		<defName>Outland_Motz_22022024</defName>
+		<date>2024/02/22</date>
+		<banner>UpdateInfo/O21Outland</banner>
+		<contentList>
+			<li>
+				<header>Fixes:</header>
+				<text>- Oxects can now breed properly, they were previously set to use insect lifestages which prevented that.
+- Motz traders should now spawn properly, they were previously unable to in most biomes due to pack animal restrictions.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2839780788</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outland Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/workshop/filedetails/?id=2755526603</linkUrl>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+</Defs>
